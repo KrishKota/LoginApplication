@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.kota.loginapplication.R;
 
@@ -41,9 +42,13 @@ public class UsersActivity extends AppCompatActivity{
         switch(item.getItemId()) {
             case R.id.action_logout:
                 finish();
+               makeToast("Successfully!! Logged Out..");
                 break;
         }
         return true;
+    }
+    public void makeToast(String message){
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
 
     }
 
