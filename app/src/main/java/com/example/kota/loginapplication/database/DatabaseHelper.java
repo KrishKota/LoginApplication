@@ -75,7 +75,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     public boolean checkUser(String email){
 
         String[] columns={
-                COLUMN_USER_ID
+                COLUMN_USER_ID,COLUMN_FIRST_NAME ,COLUMN_LAST_NAME
         };
 
         SQLiteDatabase db = this.getWritableDatabase();
@@ -88,12 +88,13 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         db.close();
 
         if(cursorCount >0){
+
             return true;
         }
         return false;
 
     }
-    public boolean checkUser(String email, String password){
+    public boolean checkUser(String email ,String password){
 
         String[] columns={
                 COLUMN_USER_ID

@@ -77,7 +77,6 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:hint="@string/hint_pwd"
-                android:textColorHint="@color/colorPrimaryDark"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:textColor="@color/colorPrimaryDark"/>
