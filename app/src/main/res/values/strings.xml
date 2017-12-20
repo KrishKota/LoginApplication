@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Side Car</string>
+    <string name="hint_userId">User ID</string>
+    <string name="hint_pwd">Password</string>
+    <string name="hint_FN">First Name</string>
+    <string name="hint_LN">Last Name</string>
+    <string name="hint_email">E-Mail</string>
+    <string name="hint_Confirm_pwd">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_signup">Sign Up</string>
+    <string name="error_message_fname">Enter First Name</string>
+    <string name="error_message_lname">Enter Last Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Sign Up</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+</resources>
